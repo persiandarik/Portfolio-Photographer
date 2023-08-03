@@ -952,7 +952,7 @@ body.active { overflow: hidden; }
   #CUSTOM CURSOR
 \*-----------------------------------*/
 
-
+.cursor { display: none; }
 
 
 
