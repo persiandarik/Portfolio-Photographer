@@ -1090,3 +1090,61 @@ body.active { overflow: hidden; }
 }
 
 
+
+
+/**
+ * responsive for large than 768px screen
+ */
+
+ @media (min-width: 768px) {
+
+  /**
+   * CUSTOM PROPERTY
+   */
+
+  :root {
+
+    /**
+     * typography
+     */
+
+    --fs-3: 4.5rem;
+
+  }
+
+
+
+  /**
+   * REUSED STYLE
+   */
+
+  .container { max-width: 720px; }
+
+
+
+  /**
+   * ABOUT
+   */
+
+  .about-banner {
+    max-width: 500px;
+    margin-inline: auto;
+  }
+
+
+
+  /**
+   * SERVICE
+   */
+
+  .service-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .service-card .card-subtitle { margin-block-end: 15px; }
+
+}
+
+
