@@ -144,7 +144,6 @@ html {
   font-size: 10px;
   scroll-behavior: smooth;
   overflow-x: hidden;
-  overflow-wrap: break-word;
 }
 
 body {
@@ -153,7 +152,7 @@ body {
   font-size: 1.6rem;
   font-weight: var(--fw-400);
   line-height: 2.15;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 body.active { overflow: hidden; }
@@ -272,9 +271,9 @@ body.active { overflow: hidden; }
   transition: var(--transition-3);
 }
 
-[data-reveal="left"] { transform: translate(-50px, 0); }
+/* [data-reveal="left"] { transform: translate(-50px, 0); }
 
-[data-reveal="right"] { transform: translate(50px, 0); }
+[data-reveal="right"] { transform: translate(50px, 0); } */
 
 [data-reveal].revealed {
   transform: translate(0, 0);
@@ -702,7 +701,6 @@ body.active { overflow: hidden; }
   font-weight: var(--fw-300);
   line-height: 1.7;
   margin-block-end: 35px;
-  overflow-wrap: break-word;
 }
 
 .about .wrapper::before {
