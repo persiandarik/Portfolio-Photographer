@@ -271,9 +271,9 @@ body.active { overflow: hidden; }
   transition: var(--transition-3);
 }
 
-/* [data-reveal="left"] { transform: translate(-50px, 0); }
+[data-reveal="left"] { transform: translate(-50px, 0); }
 
-[data-reveal="right"] { transform: translate(50px, 0); } */
+[data-reveal="right"] { transform: translate(50px, 0); }
 
 [data-reveal].revealed {
   transform: translate(0, 0);
