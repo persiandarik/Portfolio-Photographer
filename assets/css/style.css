@@ -144,6 +144,7 @@ html {
   font-size: 10px;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  overflow-wrap: break-word;
 }
 
 body {
@@ -701,6 +702,7 @@ body.active { overflow: hidden; }
   font-weight: var(--fw-300);
   line-height: 1.7;
   margin-block-end: 35px;
+  overflow-wrap: break-word;
 }
 
 .about .wrapper::before {
