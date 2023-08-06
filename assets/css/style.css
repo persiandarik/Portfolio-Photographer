@@ -819,6 +819,10 @@ body {
 
 .portfolio-card .card-title:is(:hover, :focus) { text-decoration: underline; }
 
+.portfolio-card .card-title{
+  max-width: max-content;
+}
+
 
 
 
