@@ -1,10 +1,10 @@
 <div align="center">
   
-  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/richard-ryan)
-  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/richard-ryan?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/richard-ryan?style=social)
-  [![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee)
-  [![YouTube Video Views](https://img.shields.io/youtube/views/jOA6ROBXdRE?style=social)](https://youtu.be/jOA6ROBXdRE)
+  ![GitHub repo size](https://img.shields.io/github/repo-size/persiandarik/Portfolio-Photographer)
+  ![GitHub stars](https://img.shields.io/github/stars/persiandarik/Portfolio-Photographer?style=social)
+  ![GitHub forks](https://img.shields.io/github/forks/persiandarik/Portfolio-Photographer?style=social)
+  [![Twitter Follow](https://img.shields.io/twitter/follow/persiandarik?style=social)](https://twitter.com/intent/follow?screen_name=persiandarik)
+  
 
   <br />
   <br />
@@ -13,7 +13,7 @@
 
   Richard Ryan is a fully responsive portfolio website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
-  <a href="https://codewithsadee.github.io/richard-ryan/"><strong>➥ Live Demo</strong></a>
+  <a href="https://persiandarik.github.io/Portfolio-Photographer/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
@@ -36,18 +36,18 @@ To run **Richard Ryan** locally, run this command on your git bash:
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/codewithsadee/richard-ryan.git
+sudo git clone https://github.com/persiandarik/Portfolio-Photographer.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/codewithsadee/richard-ryan.git
+git clone https://github.com/persiandarik/Portfolio-Photographer.git
 ```
 
 ### Contact
 
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/persiandarik).
 
 ### License
 
