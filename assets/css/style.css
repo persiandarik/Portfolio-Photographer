@@ -100,6 +100,7 @@
 
 
 
+
 /*-----------------------------------*\
   #RESET
 \*-----------------------------------*/
@@ -153,7 +154,7 @@ body {
   overflow-x: hidden;
 }
 
-body.active { overflow: hidden; }
+/* body.active { overflow: hidden; } */
 
 :focus-visible { outline-offset: 4px; }
 
@@ -167,11 +168,9 @@ body.active { overflow: hidden; }
 
 
 
-
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
-
 
 .container { padding-inline: 15px; }
 
@@ -281,6 +280,9 @@ body.active { overflow: hidden; }
 }
 
 
+
+
+
 /*-----------------------------------*\
   #LOADING
 \*-----------------------------------*/
@@ -324,11 +326,9 @@ body.active { overflow: hidden; }
 
 
 
-
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
-
 
 .header {
   position: fixed;
@@ -535,12 +535,9 @@ body.active { overflow: hidden; }
 
 
 
-
-
 /*-----------------------------------*\
   #GALLERY
 \*-----------------------------------*/
-
 
 .gallery-list {
   display: grid;
@@ -651,11 +648,9 @@ body.active { overflow: hidden; }
 
 
 
-
 /*-----------------------------------*\
   #CATEGORY
 \*-----------------------------------*/
-
 
 .category {
   --section-padding: 40px;
@@ -685,12 +680,9 @@ body.active { overflow: hidden; }
 
 
 
-
-
 /*-----------------------------------*\
   #ABOUT
 \*-----------------------------------*/
-
 
 .about .container {
   display: grid;
@@ -741,12 +733,9 @@ body.active { overflow: hidden; }
 
 
 
-
-
 /*-----------------------------------*\
   #SERVICES
 \*-----------------------------------*/
-
 
 .service { padding-inline: 15px; }
 
@@ -781,7 +770,6 @@ body.active { overflow: hidden; }
 }
 
 .service-card .btn-icon svg { width: 25px; }
-
 
 
 
@@ -831,11 +819,6 @@ body.active { overflow: hidden; }
 
 .portfolio-card .card-title:is(:hover, :focus) { text-decoration: underline; }
 
-.portfolio-card .card-title{
-  max-width: max-content;
-}
-
-
 
 
 
@@ -843,7 +826,6 @@ body.active { overflow: hidden; }
 /*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
-
 
 .footer { position: relative; }
 
@@ -915,12 +897,9 @@ body.active { overflow: hidden; }
 
 
 
-
-
 /*-----------------------------------*\
   #BACK TO TOP
 \*-----------------------------------*/
-
 
 .back-top-btn {
   position: fixed;
@@ -958,16 +937,17 @@ body.active { overflow: hidden; }
 
 
 
+
+
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
-
 
 /**
  * responsive for large than 575px screen
  */
 
- @media (min-width: 575px) {
+@media (min-width: 575px) {
 
   /**
    * CUSTOM PROPERTY
@@ -1094,11 +1074,12 @@ body.active { overflow: hidden; }
 
 
 
+
 /**
  * responsive for large than 768px screen
  */
 
- @media (min-width: 768px) {
+@media (min-width: 768px) {
 
   /**
    * CUSTOM PROPERTY
@@ -1157,7 +1138,7 @@ body.active { overflow: hidden; }
  * responsive for large than 992px screen
  */
 
- @media (min-width: 992px) {
+@media (min-width: 992px) {
 
   /**
    * CUSTOM PROPERTY
@@ -1635,3 +1616,106 @@ body.active { overflow: hidden; }
 
 
 
+
+
+/**
+ * responsive for large than 1400px screen
+ */
+
+@media (min-width: 1400px) {
+
+  /**
+   * CUSTOM PROPERTY
+   */
+
+  :root {
+
+    /**
+     * typography
+     */
+
+    --fs-1: 13rem;
+    --fs-2: 10rem;
+    --fs-3: 8rem;
+
+  }
+
+
+
+  /**
+   * REUSED STYLE
+   */
+
+  .container { max-width: 1320px; }
+
+  :is(.header, .gallery, .category, .portfolio) .container { max-width: 1580px; }
+
+
+
+  /**
+   * HEADER
+   */
+
+  .header .container { padding-inline: 60px; }
+
+
+
+  /**
+   * HERO
+   */
+
+  .hero .container { max-width: 1500px; }
+
+  .hero-content { margin-inline-end: 400px; }
+
+  .hero .wrapper { --fs-2: 13rem; }
+
+  .hero-text { --fs-10: 2.4rem; }
+
+  .hero-banner { max-width: max-content; }
+
+
+
+  /**
+   * CATEGORY
+   */
+
+  .category .container { padding-inline: 40px; }
+
+  .category-card .card-title { --fs-4: 8rem; }
+
+
+
+  /**
+   * ABOUT
+   */
+
+  .about { padding-block: 180px 120px; }
+
+
+
+  /**
+   * SERVICE
+   */
+
+  .service { padding-inline: 70px; }
+
+  .service-card { padding-block: 65px; }
+
+
+
+  /**
+   * PORTFOLIO
+   */
+
+  .portfolio .container { padding-inline: 45px; }
+
+
+
+  /**
+   * FOOTER
+   */
+
+  .footer-top .container { max-width: 1200px; }
+
+}
