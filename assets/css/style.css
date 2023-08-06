@@ -154,7 +154,7 @@ body {
   overflow-x: hidden;
 }
 
-/* body.active { overflow: hidden; } */
+body.active { overflow: hidden; }
 
 :focus-visible { outline-offset: 4px; }
 
